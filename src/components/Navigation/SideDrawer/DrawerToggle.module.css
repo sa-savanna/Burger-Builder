@@ -1,0 +1,14 @@
+.Menu {
+  display: none;
+  background-image: url(../../../assets//menu.svg);
+  z-index: 300;
+  width: 1em;
+  height: 1em;
+  transform: scale(2.5);
+}
+
+@media (max-width: 500px) {
+  .Menu {
+    display: block;
+  }
+}
